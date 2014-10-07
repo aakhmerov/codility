@@ -7,8 +7,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <groupId>com.aakhmerov</groupId>
     <artifactId>codility</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>pom</packaging>
+
+    <modules>
+        <module>lessons</module>
+        <module>p1</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
